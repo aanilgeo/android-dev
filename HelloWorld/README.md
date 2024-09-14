@@ -31,8 +31,8 @@ GIF created with Kap!
 ## Notes
 
 Challenges encountered while building the app:-
-1. Crop golden.png to perfection such that the image looks transparent on the app
-2. Record multiple times with Kap to get a perfect gif to be uploaded
+1. Cropped golden.png to perfection such that the image looks transparent on the app
+2. Recorded multiple times with Kap to get a perfect gif to be uploaded
 
 
 ## License
