@@ -23,7 +23,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://imgur.com/a/udVaB0f' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/brhj3Ge.gif' title='Video Walkthrough' width='300' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Kap!
@@ -31,8 +31,8 @@ GIF created with Kap!
 ## Notes
 
 Challenges encountered while building the app:-
-1.) Crop golden.png to perfection such that the image looks transparent on the app
-2.) Record multiple times with Kap to get a perfect gif to be uploaded
+1. Crop golden.png to perfection such that the image looks transparent on the app
+2. Record multiple times with Kap to get a perfect gif to be uploaded
 
 
 ## License
