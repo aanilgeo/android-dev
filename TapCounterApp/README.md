@@ -30,14 +30,15 @@ The following **stretch** functionality is implemented:
 - [ ] (2 pts) **User can exchange the number of taps accumulated for upgrades:**
   - X taps for an upgrade that makes each tap count as 2 taps. (Default: 100 taps)
     - Use a Toast for positive (purchase) or negative (can't afford) notifications.
-- <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZm9oZjN6em02cXdpNGgycXN1cGRqcDZ3dHdzZno3OXNqZGc2NTJnaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9GqKeNMi7i532mxcNT/giphy.gif" alt="Another GIF showing the app demo" width="400"/>
+<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZm9oZjN6em02cXdpNGgycXN1cGRqcDZ3dHdzZno3OXNqZGc2NTJnaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9GqKeNMi7i532mxcNT/giphy.gif" alt="Another GIF showing the app demo" width="400"/>
 
 
 
 - [ ] (2 pts) **User can exchange taps for a custom icon button.**
   - X taps for a custom icon button. (Default: 100 taps)
     - Use a Toast for positive (purchase) or negative (can't afford) notifications.
-    - ![GIF showing the icon button customization](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
+- ![GIF showing app demo](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmVzcjR2eGQxeHdqYnl0ejEwbWw3aGp2dTFzajltbHJ6cW9naDZxOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gRSBQr7PrVjkALsMtl/giphy.gif)
+
 
 - [ ] (2 pts) **User can customize the app's theme (e.g., a dog-themed background with a paw print button).**
   - ![GIF showing theme customization](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
