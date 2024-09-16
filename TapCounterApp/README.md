@@ -15,12 +15,12 @@ Time spent: **6** hours spent in total <!-- Replace 'X' with the number of hours
 The following **required** functionality is completed:
 
 - [ ] (2 pts) **User can see a number displayed on the screen. The number starts at 0.**
-<img src="https://raw.githubusercontent.com/aanilgeo/aa3348-CS388-001/Lab1/TapCounterApp/app/src/main/res/drawable/required_1.png?token=GHSAT0AAAAAACXOCMWEK2PDPKFJLJBBGSY6ZXIW7LQ" alt="Image showing the initial display of the number" width="400"/>
+<img src="https://github.com/aanilgeo/aa3348-CS388-001/blob/Lab1/TapCounterApp/app/src/main/res/drawable/required_1.png?raw=true" alt="Image showing the initial display of the number" width="400"/>
 
 
 
 - [ ] (2 pts) **User can tap on a button to see the number displayed increase by 1.**
-<img src="https://raw.githubusercontent.com/aanilgeo/aa3348-CS388-001/Lab1/TapCounterApp/app/src/main/res/drawable/required_2.gif?token=GHSAT0AAAAAACXOCMWFPTUQZT2UPKH75VFWZXIXAUA" alt="Image showing the initial display of the number" width="400"/>
+<img src="https://raw.githubusercontent.com/aanilgeo/aa3348-CS388-001/Lab1/TapCounterApp/app/src/main/res/drawable/required_2.gif?token=GHSAT0AAAAAACXOCMWFU6ETDEGRRFNLGRXQZXIXKJA" alt="Image showing the initial display of the number" width="400"/>
 
 
 
