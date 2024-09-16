@@ -15,10 +15,10 @@ Time spent: **6** hours spent in total <!-- Replace 'X' with the number of hours
 The following **required** functionality is completed:
 
 - [ ] (2 pts) **User can see a number displayed on the screen. The number starts at 0.**
-  - ![Image showing the initial display of the number](https://imgur.com/a/lab-1-tap-counter-app-tKUNiqZ) <!-- Replace this link with your actual image/GIF link -->
+  <img src="https://i.imgur.com/uGrHvGi.png" alt="Image showing the initial display of the number" width="400"/>
 
 - [ ] (2 pts) **User can tap on a button to see the number displayed increase by 1.**
-  - ![GIF showing the number increase on button tap](https://imgur.com/dMIgg7W) <!-- Replace this link with your actual image/GIF link -->
+  - ![GIF showing the number increase on button tap](https://i.imgur.com/uCYDdsh.gif) <!-- Replace this link with your actual image/GIF link -->
 
 ### Stretch Features
 
