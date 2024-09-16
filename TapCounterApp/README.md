@@ -50,7 +50,7 @@ The following **stretch** functionality is implemented:
 - [ ] (+2 bonus pts) **User has progressively difficult goals to reach in terms of the number of taps accumulated.**  
   - Display each goal on the screen, and track the total number of goals reached.
   - Use a Toast to notify of a reached goal.
-<img src="https://raw.githubusercontent.com/aanilgeo/aa3348-CS388-001/Lab1/TapCounterApp/app/src/main/res/drawable/stretch_4.gif?token=GHSAT0AAAAAACXOCMWEGSVLHX4Z5NZKK472ZXIXI5Q" alt="Image showing the initial display of the number" width="400"/>
+<img src="https://github.com/aanilgeo/aa3348-CS388-001/blob/Lab1/TapCounterApp/app/src/main/res/drawable/stretch_4.gif?raw=true" alt="Image showing the initial display of the number" width="400"/>
 
 
 ## Notes
