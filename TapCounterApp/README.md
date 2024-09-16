@@ -16,9 +16,12 @@ The following **required** functionality is completed:
 
 - [ ] (2 pts) **User can see a number displayed on the screen. The number starts at 0.**
   <img src="https://i.imgur.com/uGrHvGi.png" style="float:left; margin-right:10px;" alt="Image showing the initial display of the number" width="400"/>
+  <br style="clear:both;" />
 
 - [ ] (2 pts) **User can tap on a button to see the number displayed increase by 1.**
   <img src="https://i.imgur.com/YxLPSmE.gif" style="float:left; margin-right:10px;" alt="GIF showing the app demo" width="400"/>
+  <br style="clear:both;" />
+
 
 
 ### Stretch Features
