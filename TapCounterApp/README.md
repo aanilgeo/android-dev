@@ -37,7 +37,7 @@ The following **stretch** functionality is implemented:
 - [ ] (2 pts) **User can exchange taps for a custom icon button.**  
   - X taps for a custom icon button. (Default: 100 taps)
     - Use a Toast for positive (purchase) or negative (can't afford) notifications.
-    - ![Image/GIF showing the icon button customization](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
+<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXkxa2x5ODJyNWg1dGtqOGoyb21zNjR6cXN2NTB2eWpja3l2ajhlZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XYHaHTNbaAObrwmyvF/giphy.gif" width="400"/>
 
 - [ ] (2 pts) **User can customize the app's theme (e.g., a dog-themed background with a paw print button).**  
   - ![Image/GIF showing theme customization](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
