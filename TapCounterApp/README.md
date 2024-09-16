@@ -15,12 +15,10 @@ Time spent: **6** hours spent in total <!-- Replace 'X' with the number of hours
 The following **required** functionality is completed:
 
 - [ ] (2 pts) **User can see a number displayed on the screen. The number starts at 0.**
-  <img src="https://i.imgur.com/uGrHvGi.png" style="float:left; margin-right:10px;" alt="Image showing the initial display of the number" width="400"/>
-  <br style="clear:both;" />
+  - ![Image showing the initial display of the number](https://i.imgur.com/uGrHvGi.png) <!-- Replace this link with your actual image/GIF link -->
 
 - [ ] (2 pts) **User can tap on a button to see the number displayed increase by 1.**
-  <img src="https://i.imgur.com/YxLPSmE.gif" style="float:left; margin-right:10px;" alt="GIF showing the app demo" width="400"/>
-  <br style="clear:both;" />
+  - ![GIF showing the number increase on button tap](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGhybWZkZDM4cWpsMDgyN3p0dnV5d2xsanV6cW13OGFwZG04Z3FzOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7xwQmJ2By1KUdFim4Z/giphy.gif)
 
 
 
