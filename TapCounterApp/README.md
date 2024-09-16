@@ -37,7 +37,7 @@ The following **stretch** functionality is implemented:
 - [ ] (2 pts) **User can exchange taps for a custom icon button.**
   - X taps for a custom icon button. (Default: 100 taps)
     - Use a Toast for positive (purchase) or negative (can't afford) notifications.
-    - ![Image/GIF showing the icon button customization](https://i.imgur.com/V89HBQn.gif) <!-- Replace this link with your actual image/GIF link -->
+  <img src="https://i.imgur.com/V89HBQn.gif" width="400"/>
 
 
 
