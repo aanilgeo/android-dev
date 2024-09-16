@@ -15,10 +15,12 @@ Time spent: **6** hours spent in total <!-- Replace 'X' with the number of hours
 The following **required** functionality is completed:
 
 - [ ] (2 pts) **User can see a number displayed on the screen. The number starts at 0.**
-  - ![Image showing the initial display of the number](https://i.imgur.com/uGrHvGi.png) <!-- Replace this link with your actual image/GIF link -->
+<img src="https://i.imgur.com/uGrHvGi.png" alt="Image showing the initial display of the number" width="400"/>
+
 
 - [ ] (2 pts) **User can tap on a button to see the number displayed increase by 1.**
-  - ![GIF showing the number increase on button tap](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGhybWZkZDM4cWpsMDgyN3p0dnV5d2xsanV6cW13OGFwZG04Z3FzOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7xwQmJ2By1KUdFim4Z/giphy.gif)
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGhybWZkZDM4cWpsMDgyN3p0dnV5d2xsanV6cW13OGFwZG04Z3FzOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7xwQmJ2By1KUdFim4Z/giphy.gif" alt="GIF showing the number increase on button tap" width="400"/>
+
 
 
 ### Stretch Features
@@ -28,7 +30,9 @@ The following **stretch** functionality is implemented:
 - [ ] (2 pts) **User can exchange the number of taps accumulated for upgrades:**
   - X taps for an upgrade that makes each tap count as 2 taps. (Default: 100 taps)
     - Use a Toast for positive (purchase) or negative (can't afford) notifications.
-    - ![GIF showing the upgrade process](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
+- <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZm9oZjN6em02cXdpNGgycXN1cGRqcDZ3dHdzZno3OXNqZGc2NTJnaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9GqKeNMi7i532mxcNT/giphy.gif" alt="Another GIF showing the app demo" width="400"/>
+
+
 
 - [ ] (2 pts) **User can exchange taps for a custom icon button.**
   - X taps for a custom icon button. (Default: 100 taps)
