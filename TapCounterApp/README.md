@@ -27,7 +27,8 @@ The following **stretch** functionality is implemented:
 - [ ] (2 pts) **User can exchange the number of taps accumulated for upgrades:**
   - X taps for an upgrade that makes each tap count as 2 taps. (Default: 100 taps)
     - Use a Toast for positive (purchase) or negative (can't afford) notifications.
-    - ![GIF showing the upgrade process](https://i.imgur.com/IwPmeAQ.gif) <!-- Replace this link with your actual image/GIF link -->
+  
+  ![GIF showing the upgrade process](https://i.imgur.com/IwPmeAQ.gif) <!-- Replace this link with your actual image/GIF link -->
 
 - [ ] (2 pts) **User can exchange taps for a custom icon button.**
   - X taps for a custom icon button. (Default: 100 taps)
