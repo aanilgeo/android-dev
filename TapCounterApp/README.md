@@ -15,10 +15,10 @@ Time spent: **6** hours spent in total <!-- Replace 'X' with the number of hours
 The following **required** functionality is completed:
 
 - [ ] (2 pts) **User can see a number displayed on the screen. The number starts at 0.**
-  <img src="https://i.imgur.com/uGrHvGi.png" alt="Image showing the initial display of the number" width="400"/>
+  <img src="https://i.imgur.com/uGrHvGi.png" style="float:left; margin-right:10px;" alt="Image showing the initial display of the number" width="400"/>
 
 - [ ] (2 pts) **User can tap on a button to see the number displayed increase by 1.**
-  <img src="https://i.imgur.com/YxLPSmE.gif" alt="GIF showing the app demo" width="400"/>
+  <img src="https://i.imgur.com/YxLPSmE.gif" style="float:left; margin-right:10px;" alt="GIF showing the app demo" width="400"/>
 
 
 ### Stretch Features
