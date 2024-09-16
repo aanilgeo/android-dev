@@ -21,17 +21,6 @@ The following **required** functionality is completed:
   - ![GIF showing the number increase on button tap](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGhybWZkZDM4cWpsMDgyN3p0dnV5d2xsanV6cW13OGFwZG04Z3FzOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7xwQmJ2By1KUdFim4Z/giphy.gif)
 
 
-
-### Stretch Features
-
-The following **required** functionality is completed:
-
-- [ ] (2 pts) **User can see a number displayed on the screen. The number starts at 0.**
-  - ![Image showing the initial display of the number](https://i.imgur.com/uGrHvGi.png) <!-- Replace this link with your actual image/GIF link -->
-
-- [ ] (2 pts) **User can tap on a button to see the number displayed increase by 1.**
-  - ![GIF showing the number increase on button tap](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGhybWZkZDM4cWpsMDgyN3p0dnV5d2xsanV6cW13OGFwZG04Z3FzOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7xwQmJ2By1KUdFim4Z/giphy.gif) <!-- Replace this link with your actual image/GIF link -->
-
 ### Stretch Features
 
 The following **stretch** functionality is implemented:
