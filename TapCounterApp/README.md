@@ -34,20 +34,18 @@ The following **stretch** functionality is implemented:
 
 
 
-- [ ] (2 pts) **User can exchange taps for a custom icon button.**
+- [ ] (2 pts) **User can exchange taps for a custom icon button.**  
   - X taps for a custom icon button. (Default: 100 taps)
     - Use a Toast for positive (purchase) or negative (can't afford) notifications.
-  <img src="https://i.imgur.com/V89HBQn.gif" width="400"/>
+    - ![Image/GIF showing the icon button customization](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
 
+- [ ] (2 pts) **User can customize the app's theme (e.g., a dog-themed background with a paw print button).**  
+  - ![Image/GIF showing theme customization](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
 
-
-- [ ] (2 pts) **User can customize the app's theme (e.g., a dog-themed background with a paw print button).**
-  - ![GIF showing theme customization](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
-
-- [ ] (+2 bonus pts) **User has progressively difficult goals to reach in terms of the number of taps accumulated.**
+- [ ] (+2 bonus pts) **User has progressively difficult goals to reach in terms of the number of taps accumulated.**  
   - Display each goal on the screen, and track the total number of goals reached.
   - Use a Toast to notify of a reached goal.
-  - ![GIF showing goals and progress](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
+  - ![Image/GIF showing goals and progress](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
 
 ## Notes
 
