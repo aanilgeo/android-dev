@@ -15,11 +15,13 @@ Time spent: **6** hours spent in total <!-- Replace 'X' with the number of hours
 The following **required** functionality is completed:
 
 - [ ] (2 pts) **User can see a number displayed on the screen. The number starts at 0.**
-<img src="https://i.imgur.com/uGrHvGi.png" alt="Image showing the initial display of the number" width="400"/>
+<img src="https://raw.githubusercontent.com/aanilgeo/aa3348-CS388-001/Lab1/TapCounterApp/app/src/main/res/drawable/required_1.png?token=GHSAT0AAAAAACXOCMWEK2PDPKFJLJBBGSY6ZXIW7LQ" alt="Image showing the initial display of the number" width="400"/>
+
 
 
 - [ ] (2 pts) **User can tap on a button to see the number displayed increase by 1.**
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGhybWZkZDM4cWpsMDgyN3p0dnV5d2xsanV6cW13OGFwZG04Z3FzOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7xwQmJ2By1KUdFim4Z/giphy.gif" alt="GIF showing the number increase on button tap" width="400"/>
+<img src="https://raw.githubusercontent.com/aanilgeo/aa3348-CS388-001/Lab1/TapCounterApp/app/src/main/res/drawable/required_2.gif?token=GHSAT0AAAAAACXOCMWFPTUQZT2UPKH75VFWZXIXAUA" alt="Image showing the initial display of the number" width="400"/>
+
 
 
 
@@ -30,22 +32,26 @@ The following **stretch** functionality is implemented:
 - [ ] (2 pts) **User can exchange the number of taps accumulated for upgrades:**
   - X taps for an upgrade that makes each tap count as 2 taps. (Default: 100 taps)
     - Use a Toast for positive (purchase) or negative (can't afford) notifications.
-<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZm9oZjN6em02cXdpNGgycXN1cGRqcDZ3dHdzZno3OXNqZGc2NTJnaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9GqKeNMi7i532mxcNT/giphy.gif" alt="Another GIF showing the app demo" width="400"/>
+<img src="https://raw.githubusercontent.com/aanilgeo/aa3348-CS388-001/Lab1/TapCounterApp/app/src/main/res/drawable/stretch_1.gif?token=GHSAT0AAAAAACXOCMWF3ZTOCHXLWJ7P2CSIZXIXHHA" alt="Image showing the initial display of the number" width="400"/>
+
 
 
 
 - [ ] (2 pts) **User can exchange taps for a custom icon button.**  
   - X taps for a custom icon button. (Default: 100 taps)
     - Use a Toast for positive (purchase) or negative (can't afford) notifications.
-<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXkxa2x5ODJyNWg1dGtqOGoyb21zNjR6cXN2NTB2eWpja3l2ajhlZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XYHaHTNbaAObrwmyvF/giphy.gif" width="400"/>
+<img src="https://raw.githubusercontent.com/aanilgeo/aa3348-CS388-001/Lab1/TapCounterApp/app/src/main/res/drawable/stretch_2.gif?token=GHSAT0AAAAAACXOCMWFS6FZPUDOKDHCSTQ4ZXIXHPA" alt="Image showing the initial display of the number" width="400"/>
+
 
 - [ ] (2 pts) **User can customize the app's theme (e.g., a dog-themed background with a paw print button).**  
-  - ![Image/GIF showing theme customization](https://i.imgur.com/lauOMZn.mp4) <!-- Replace this link with your actual image/GIF link -->
+<img src="https://github.com/aanilgeo/aa3348-CS388-001/blob/Lab1/TapCounterApp/app/src/main/res/drawable/stretch_3.gif?raw=true" alt="Image showing the initial display of the number" width="400"/>
+
 
 - [ ] (+2 bonus pts) **User has progressively difficult goals to reach in terms of the number of taps accumulated.**  
   - Display each goal on the screen, and track the total number of goals reached.
   - Use a Toast to notify of a reached goal.
-  - ![Image/GIF showing goals and progress](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
+<img src="https://raw.githubusercontent.com/aanilgeo/aa3348-CS388-001/Lab1/TapCounterApp/app/src/main/res/drawable/stretch_4.gif?token=GHSAT0AAAAAACXOCMWEGSVLHX4Z5NZKK472ZXIXI5Q" alt="Image showing the initial display of the number" width="400"/>
+
 
 ## Notes
 
