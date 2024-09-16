@@ -18,7 +18,8 @@ The following **required** functionality is completed:
   <img src="https://i.imgur.com/uGrHvGi.png" alt="Image showing the initial display of the number" width="400"/>
 
 - [ ] (2 pts) **User can tap on a button to see the number displayed increase by 1.**
-  - ![GIF showing the number increase on button tap](https://i.imgur.com/uCYDdsh.gif) <!-- Replace this link with your actual image/GIF link -->
+  <img src="https://i.imgur.com/YxLPSmE.gif" alt="GIF showing the app demo" width="400"/>
+
 
 ### Stretch Features
 
