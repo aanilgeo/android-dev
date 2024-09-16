@@ -15,11 +15,11 @@ Time spent: **6** hours spent in total <!-- Replace 'X' with the number of hours
 The following **required** functionality is completed:
 
 - [ ] (2 pts) **User can see a number displayed on the screen. The number starts at 0.**
-  <img src="https://i.imgur.com/uGrHvGi.png" alt="Image showing the initial display of the number" width="300"/>
+  - <img src="https://i.imgur.com/uGrHvGi.png" alt="Image showing the initial display of the number" width="300"/>
 
 
 - [ ] (2 pts) **User can tap on a button to see the number displayed increase by 1.**
-  <img src="https://i.imgur.com/dMIgg7W.gif" alt="GIF showing the number increase on button tap" width="300"/>
+  - <img src="https://i.imgur.com/dMIgg7W.gif" alt="GIF showing the number increase on button tap" width="300"/>
 
 ### Stretch Features
 
@@ -28,20 +28,21 @@ The following **stretch** functionality is implemented:
 - [ ] (2 pts) **User can exchange the number of taps accumulated for upgrades:**
   - X taps for an upgrade that makes each tap count as 2 taps. (Default: 100 taps)
     - Use a Toast for positive (purchase) or negative (can't afford) notifications.
-    <img src="https://i.imgur.com/pTlznSm.gif" alt="GIF showing the upgrade process" width="300"/>
+    - <img src="https://i.imgur.com/pTlznSm.gif" alt="GIF showing the upgrade process" width="300"/>
 
 - [ ] (2 pts) **User can exchange taps for a custom icon button.**
   - X taps for a custom icon button. (Default: 100 taps)
     - Use a Toast for positive (purchase) or negative (can't afford) notifications.
-    <img src="https://i.imgur.com/LNLUjOH.gif" alt="GIF showing the icon button customization" width="300"/>
+    - <img src="https://i.imgur.com/LNLUjOH.gif" alt="GIF showing the icon button customization" width="300"/>
 
 - [ ] (2 pts) **User can customize the app's theme (e.g., a dog-themed background with a paw print button).**
-  <img src="https://i.imgur.com/1vpFk2q.gif" alt="GIF showing theme customization" width="300"/>
+  - <img src="https://i.imgur.com/1vpFk2q.gif" alt="GIF showing theme customization" width="300"/>
 
 - [ ] (+2 bonus pts) **User has progressively difficult goals to reach in terms of the number of taps accumulated.**
   - Display each goal on the screen, and track the total number of goals reached.
   - Use a Toast to notify of a reached goal.
-  <img src="https://i.imgur.com/UoGM44Q.gif" alt="GIF showing goals and progress" width="300"/>
+  - <img src="https://i.imgur.com/UoGM44Q.gif" alt="GIF showing goals and progress" width="300"/>
+
 
 
 ## Notes
