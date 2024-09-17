@@ -32,10 +32,16 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/EkoN2tq.gif' title='Video Walkthrough' width='400' alt='Video Walkthrough' />
+<div>
+    <a href="https://www.loom.com/share/22b216b654b14513a217bb4630d4305d">
+    </a>
+    <a href="https://www.loom.com/share/22b216b654b14513a217bb4630d4305d">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/22b216b654b14513a217bb4630d4305d-b7790ec680051c77-full-play.gif">
+    </a>
+  </div>
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with Kap
+Video created with Loom
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
