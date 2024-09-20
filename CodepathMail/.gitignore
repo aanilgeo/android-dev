@@ -1,15 +1,20 @@
+# Ignore IntelliJ and Android Studio project files
 *.iml
 .gradle
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+/.idea/
 .DS_Store
 /build
 /captures
 .externalNativeBuild
 .cxx
 local.properties
+
+# Ignore all hidden system files
+.DS_Store
+
+# Ignore other projects' folders
+HelloWorld/
+RecycleFun/
+Wordle/
+
