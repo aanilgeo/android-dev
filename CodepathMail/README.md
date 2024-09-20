@@ -19,20 +19,20 @@ The following **required** functionality is completed:
         - Sender
         - Email title
         - Email summary
-    - ![GIF showing the basic email list display](https://github.com/user-attachments/assets/ff383fd2-12b5-453e-9338-1d2864df284e)
+<img src="https://github.com/user-attachments/assets/ff383fd2-12b5-453e-9338-1d2864df284e" width="250" height="250"/>
 
 ### Stretch Features
 
 The following **stretch** functionality is implemented:
 
 - [X] (3 pts) **User can press a 'Load More' button to see the next 5 emails displayed.**
-    - ![GIF showing the 'Load More' button in action](https://github.com/user-attachments/assets/6de6e0ac-77b5-4b62-ab76-612ef35d1e79)
+  ![GIF showing the 'Load More' button in action](https://github.com/user-attachments/assets/6de6e0ac-77b5-4b62-ab76-612ef35d1e79)
 
 - [X] (3 pts) **Each email displays additional information:**
     - Picture of the sender
     - Email sent date
     - Bolded information if the email is unread
-    - ![GIF showing additional email information](https://github.com/user-attachments/assets/89ec0dec-087b-4c2a-80b6-29c75a43d085)
+  ![GIF showing additional email information](https://github.com/user-attachments/assets/89ec0dec-087b-4c2a-80b6-29c75a43d085)
 
 
 ## Notes
