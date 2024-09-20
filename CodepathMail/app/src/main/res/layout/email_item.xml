@@ -1,0 +1,70 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <!-- ImageView for the sender's avatar -->
+    <ImageView
+        android:id="@+id/senderImageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/default_avatar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <!-- TextView for the sender's name -->
+    <TextView
+        android:id="@+id/senderTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingEnd="8dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintStart_toEndOf="@+id/senderImageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/dateTv" />
+
+    <!-- TextView for the email title -->
+    <TextView
+        android:id="@+id/titleTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingEnd="8dp"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        app:layout_constraintStart_toStartOf="@+id/senderTv"
+        app:layout_constraintTop_toBottomOf="@+id/senderTv"
+        app:layout_constraintEnd_toEndOf="@+id/senderTv" />
+
+    <!-- TextView for the email summary -->
+    <TextView
+        android:id="@+id/summaryTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingEnd="8dp"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-light"
+        android:ellipsize="end"
+        android:lines="1"
+        app:layout_constraintStart_toStartOf="@+id/senderTv"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv"
+        app:layout_constraintEnd_toEndOf="@+id/senderTv" />
+
+    <!-- TextView for the date -->
+    <TextView
+        android:id="@+id/dateTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
