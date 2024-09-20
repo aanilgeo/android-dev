@@ -19,7 +19,7 @@ The following **required** functionality is completed:
         - Sender
         - Email title
         - Email summary
-<img src="https://github.com/user-attachments/assets/ff383fd2-12b5-453e-9338-1d2864df284e" width="360" height="640"/>
+<img src="https://github.com/user-attachments/assets/ff383fd2-12b5-453e-9338-1d2864df284e" width="300" height="640"/>
 
 ### Stretch Features
 
