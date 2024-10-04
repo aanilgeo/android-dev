@@ -16,10 +16,11 @@ The following **required** functionality is completed:
 
 - [X] (2 pts) **Live data is loaded from the NY Times API.**
 <img src="https://github.com/user-attachments/assets/097203fd-2f6b-4263-8128-2a2f37438e53" width="300" height="640"/>
+
 - [X] (4 pts) **Books are displayed using a RecyclerView.**
     - Displays book ranking, cover, title, author, and description.
     - Book cover images are downloaded using Glide.
-<img src="" width="300" height="640"/>
+<img src="https://github.com/user-attachments/assets/0de82e58-be8d-41ae-b0ec-21e87f9ec013" width="300" height="640"/>
 
 ### Stretch Features
 
@@ -27,7 +28,7 @@ The following **stretch** functionality is implemented:
 
 - [X] (4 pts) **Improved layout and styling to match the NY Times website.**
     - Includes a "buy" button that links to Amazon.
-  <img src="" width="300" height="640"/>
+  <img src="https://github.com/user-attachments/assets/33d31643-f6f0-4ed9-904a-7e6b3c853063" width="300" height="640"/>
 
 ## Notes
 
