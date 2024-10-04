@@ -1,0 +1,5 @@
+com.example.wishlist.test.app-core-1.6.1-0 /Users/HP/.gradle/caches/transforms-4/f1de0c4edc1152409866ec97a8de439c/transformed/core-1.6.1/res
+com.example.wishlist.test.app-androidTest-1 /Users/HP/NJIT/CS-388/aa3348-CS388-001/Wishlist/app/build/generated/res/resValues/androidTest/debug
+com.example.wishlist.test.app-mergeDebugAndroidTestResources-2 /Users/HP/NJIT/CS-388/aa3348-CS388-001/Wishlist/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.wishlist.test.app-mergeDebugAndroidTestResources-3 /Users/HP/NJIT/CS-388/aa3348-CS388-001/Wishlist/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.wishlist.test.app-debugAndroidTest-4 /Users/HP/NJIT/CS-388/aa3348-CS388-001/Wishlist/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

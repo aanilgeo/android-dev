@@ -1,0 +1,29 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable background
+drawable gradient_background
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id buttonAdd
+id editTextName
+id editTextPrice
+id editTextUrl
+id headerTitle
+id inputLayout
+id main
+id recyclerView
+id textViewName
+id textViewPrice
+id textViewUrl
+id totalPriceBar
+layout activity_main
+layout item_layout
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Wishlist
+style Theme.Wishlist
+xml backup_rules
+xml data_extraction_rules
