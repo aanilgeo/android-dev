@@ -28,7 +28,7 @@ The following **stretch** functionality is implemented:
 
 - [X] (4 pts) **Improved layout and styling to match the NY Times website.**
     - Includes a "buy" button that links to Amazon.
-  <img src="https://github.com/user-attachments/assets/33d31643-f6f0-4ed9-904a-7e6b3c853063" width="300" height="640"/>
+  <img src="https://github.com/user-attachments/assets/e4360de8-087d-419d-8b77-b6ffc1d83756" width="300" height="640"/>
 
 ## Notes
 
