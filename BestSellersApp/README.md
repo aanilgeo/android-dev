@@ -15,11 +15,11 @@ Time spent: **5** hours spent in total <!-- Replace 'X' with the number of hours
 The following **required** functionality is completed:
 
 - [X] (2 pts) **Live data is loaded from the NY Times API.**
-    - ![Image/GIF showing additional email information](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
+<img src="https://github.com/user-attachments/assets/097203fd-2f6b-4263-8128-2a2f37438e53" width="300" height="640"/>
 - [X] (4 pts) **Books are displayed using a RecyclerView.**
     - Displays book ranking, cover, title, author, and description.
     - Book cover images are downloaded using Glide.
-    - ![Image/GIF showing required features](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
+<img src="" width="300" height="640"/>
 
 ### Stretch Features
 
@@ -27,7 +27,7 @@ The following **stretch** functionality is implemented:
 
 - [X] (4 pts) **Improved layout and styling to match the NY Times website.**
     - Includes a "buy" button that links to Amazon.
-    - ![Image/GIF showing stretch features](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
+  <img src="" width="300" height="640"/>
 
 ## Notes
 
