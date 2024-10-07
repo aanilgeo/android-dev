@@ -21,12 +21,14 @@ The following **optional** features are implemented:
     - App should neatly arrange data in both landscape and portrait mode
 - [X] Implement Glide to display placeholder graphics during loading
     - Note: this feature is difficult to capture in a GIF without throttling internet speeds.  Instead, include an additional screencap of your Glide code implementing the feature.  (<10 lines of code)
+<img width="572" alt="glide" src="https://github.com/user-attachments/assets/44a55371-61bc-40ff-a9f0-f319b2a218f9">
+
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/user-attachments/assets/476f8e1f-cfbd-4ce8-a5d4-4e5d753f3d29' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Kap
