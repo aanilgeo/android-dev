@@ -15,7 +15,6 @@ Time spent: **5** hours spent in total <!-- Replace 'X' with the number of hours
 The following **required** functionality is completed:
 
 - [X] (2 pts) **Live data is loaded from the NY Times API.**
-<img src="https://github.com/user-attachments/assets/a8f69022-4297-465e-ab2d-c11642bab224"/>
 <img src="https://github.com/user-attachments/assets/097203fd-2f6b-4263-8128-2a2f37438e53" width="300" height="640"/>
 
 - [X] (4 pts) **Books are displayed using a RecyclerView.**
@@ -29,7 +28,7 @@ The following **stretch** functionality is implemented:
 
 - [X] (4 pts) **Improved layout and styling to match the NY Times website.**
     - Includes a "buy" button that links to Amazon.
-  <img src="https://github.com/user-attachments/assets/e4360de8-087d-419d-8b77-b6ffc1d83756" width="300" height="640"/>
+  <img src="https://github.com/user-attachments/assets/33d31643-f6f0-4ed9-904a-7e6b3c853063" width="300" height="640"/>
 
 ## Notes
 

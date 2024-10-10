@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.util.Log
 import androidx.core.widget.ContentLoadingProgressBar
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
@@ -13,6 +14,7 @@ import com.codepath.asynchttpclient.RequestParams
 import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler
 import com.google.gson.Gson
 import okhttp3.Headers
+
 
 class BestSellerBooksFragment : Fragment(), OnListFragmentInteractionListener {
 
@@ -44,6 +46,9 @@ class BestSellerBooksFragment : Fragment(), OnListFragmentInteractionListener {
         client.get("https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json", params, object : JsonHttpResponseHandler() {
             override fun onSuccess(statusCode: Int, headers: Headers, json: JSON) {
                 progressBar.hide()
+
+                // Print the JSON data to Logcat
+                Log.d("NYTimesAPIResponse", json.jsonObject.toString())
 
                 val results = json.jsonObject.getJSONObject("results")
 
