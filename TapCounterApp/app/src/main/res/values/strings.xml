@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TapCounterApp</string>
+    <string name="goal_text">Goal: %1$d taps</string>
+    <string name="next_goal_text">Next Goal: %1$d taps</string>
+    <string name="goals_reached">Goals Reached: %1$d</string>
+    <string name="upgrade_purchased">Upgrade Purchased: Add %1$d!</string>
+    <string name="not_enough_taps">Not enough taps! You need %1$d taps to upgrade.</string>
+    <string name="switch_to_dog_theme">Switch to Dog Theme</string>
+    <string name="switch_to_default_theme">Switch to Default Theme</string>
+    <string name="dog_theme_activated">Switched to Dog Theme!</string>
+    <string name="default_theme_activated">Switched to Default Theme!</string>
+    <string name="custom_icon_unlocked">Custom Icon Unlocked!</string>
+</resources>
