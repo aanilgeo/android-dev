@@ -1,3 +1,0 @@
-com.example.codepathmail.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
