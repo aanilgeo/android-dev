@@ -15,19 +15,19 @@ Time spent: **5** hours spent in total <!-- Replace 'X' with the number of hours
 The following **required** functionality is completed:
 
 - [X] (2 pts) **Use rapidapi.com to find a Joke API (use BuildConfig).**
-    - ![Image showing API integration]("https://github.com/user-attachments/assets/297852c6-82bc-49ea-906d-a06da8d6d508") <!-- Replace this link with your actual image/GIF link -->
+<img src="https://github.com/user-attachments/assets/412b5c86-7418-42f8-90de-3a5afb4f5684"/>
+      
 - [X] (2 pts) **Fetch a list of jokes and display them in a RecyclerView.**
-    - Displays a list of jokes fetched from the API.
-    - ![Image showing jokes list]() <!-- Replace this link with your actual image/GIF link -->
+<img src="https://github.com/user-attachments/assets/0922ba78-fca3-40c8-85b0-ed18b31cf92e" width="300" height="640"/>
+
 - [X] (2 pts) **Click a joke to display it in centered format.**
-    - When a joke is clicked, it opens in a centered format on a new screen.
-    - ![GIF showing centered joke view]() <!-- Replace this link with your actual image/GIF link -->
+<img src="https://github.com/user-attachments/assets/15d46d9a-bf69-4179-9c3c-556fe0d3c661" width="300" height="640"/>
+
 - [X] (2 pts) **Provide social sharing options for at least 2 platforms (e.g., X, Facebook).**
-    - Users can share a joke on selected social media platforms.
-    - ![GIF showing social media share feature]() <!-- Replace this link with your actual image/GIF link -->
+<img src="https://github.com/user-attachments/assets/dd47c8ba-64c7-4ca4-8a3e-7c2984c43ed9" width="300" height="640"/>
+      
 - [X] (2 pts) **Customize the theme of the app.**
-    - Custom theme applied to the app instead of the default Android theme.
-    - ![Image showing app theme customization]() <!-- Replace this link with your actual image/GIF link -->
+<img src="https://github.com/user-attachments/assets/0922ba78-fca3-40c8-85b0-ed18b31cf92e" width="300" height="640"/>
 
 ## Notes
 
