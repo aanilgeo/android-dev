@@ -15,7 +15,7 @@ Time spent: **5** hours spent in total <!-- Replace 'X' with the number of hours
 The following **required** functionality is completed:
 
 - [X] (2 pts) **Use rapidapi.com to find a Joke API (use BuildConfig).**
-    - ![Image showing API integration]() <!-- Replace this link with your actual image/GIF link -->
+    - ![Image showing API integration]("https://github.com/user-attachments/assets/297852c6-82bc-49ea-906d-a06da8d6d508") <!-- Replace this link with your actual image/GIF link -->
 - [X] (2 pts) **Fetch a list of jokes and display them in a RecyclerView.**
     - Displays a list of jokes fetched from the API.
     - ![Image showing jokes list]() <!-- Replace this link with your actual image/GIF link -->
