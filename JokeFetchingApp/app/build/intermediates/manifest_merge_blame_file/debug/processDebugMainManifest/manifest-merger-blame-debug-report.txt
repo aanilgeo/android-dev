@@ -1,0 +1,169 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.jokefetchingapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Internet permission for API calls -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:6:5-66
+12-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:6:22-64
+13
+14    <!-- Write to external storage permission (optional if capturing image to save locally) -->
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:9:5-81
+15-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:9:22-78
+16
+17    <!-- Permission to access network state (optional but recommended) -->
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:12:5-79
+18-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:12:22-76
+19
+20    <permission
+20-->[androidx.core:core:1.13.1] /Users/HP/.gradle/caches/transforms-4/aad39a1c0706ab6a5a30470c2306073d/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+21        android:name="com.example.jokefetchingapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.13.1] /Users/HP/.gradle/caches/transforms-4/aad39a1c0706ab6a5a30470c2306073d/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.13.1] /Users/HP/.gradle/caches/transforms-4/aad39a1c0706ab6a5a30470c2306073d/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.example.jokefetchingapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.13.1] /Users/HP/.gradle/caches/transforms-4/aad39a1c0706ab6a5a30470c2306073d/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.13.1] /Users/HP/.gradle/caches/transforms-4/aad39a1c0706ab6a5a30470c2306073d/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:14:5-49:19
+27        android:allowBackup="true"
+27-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:15:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.13.1] /Users/HP/.gradle/caches/transforms-4/aad39a1c0706ab6a5a30470c2306073d/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+29        android:dataExtractionRules="@xml/data_extraction_rules"
+29-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:16:9-65
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:fullBackupContent="@xml/backup_rules"
+32-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:17:9-54
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:18:9-43
+34        android:label="@string/app_name"
+34-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:19:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:20:9-54
+36        android:supportsRtl="true"
+36-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:21:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.JokeFetchingApp" >
+38-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:22:9-53
+39
+40        <!-- MainActivity declaration -->
+41        <activity
+41-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:26:9-33:20
+42            android:name="com.example.jokefetchingapp.MainActivity"
+42-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:27:13-41
+43            android:exported="true" >
+43-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:28:13-36
+44            <intent-filter>
+44-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:29:13-32:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:30:17-69
+45-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:30:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:31:17-77
+47-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:31:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <!-- JokeDetailActivity declaration -->
+52        <activity android:name="com.example.jokefetchingapp.JokeDetailActivity" />
+52-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:36:9-56
+52-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:36:19-53
+53
+54        <!-- Ensure capture and share features are well-handled -->
+55        <provider
+56            android:name="androidx.core.content.FileProvider"
+56-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:40:13-62
+57            android:authorities="com.example.jokefetchingapp.fileprovider"
+57-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:41:13-64
+58            android:exported="false"
+58-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:42:13-37
+59            android:grantUriPermissions="true" >
+59-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:43:13-47
+60            <meta-data
+60-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:44:13-46:54
+61                android:name="android.support.FILE_PROVIDER_PATHS"
+61-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:45:17-67
+62                android:resource="@xml/file_paths" />
+62-->/Users/HP/NJIT/CS-388/aa3348-CS388-001/JokeFetchingApp/app/src/main/AndroidManifest.xml:46:17-51
+63        </provider>
+64        <provider
+64-->[androidx.emoji2:emoji2:1.3.0] /Users/HP/.gradle/caches/transforms-4/7c846f2803511e77fcc638b27eb66be3/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+65            android:name="androidx.startup.InitializationProvider"
+65-->[androidx.emoji2:emoji2:1.3.0] /Users/HP/.gradle/caches/transforms-4/7c846f2803511e77fcc638b27eb66be3/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+66            android:authorities="com.example.jokefetchingapp.androidx-startup"
+66-->[androidx.emoji2:emoji2:1.3.0] /Users/HP/.gradle/caches/transforms-4/7c846f2803511e77fcc638b27eb66be3/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+67            android:exported="false" >
+67-->[androidx.emoji2:emoji2:1.3.0] /Users/HP/.gradle/caches/transforms-4/7c846f2803511e77fcc638b27eb66be3/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+68            <meta-data
+68-->[androidx.emoji2:emoji2:1.3.0] /Users/HP/.gradle/caches/transforms-4/7c846f2803511e77fcc638b27eb66be3/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+69                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+69-->[androidx.emoji2:emoji2:1.3.0] /Users/HP/.gradle/caches/transforms-4/7c846f2803511e77fcc638b27eb66be3/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+70                android:value="androidx.startup" />
+70-->[androidx.emoji2:emoji2:1.3.0] /Users/HP/.gradle/caches/transforms-4/7c846f2803511e77fcc638b27eb66be3/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+71            <meta-data
+71-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/HP/.gradle/caches/transforms-4/957be3073d49f64837c34a37214dbef1/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+72                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+72-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/HP/.gradle/caches/transforms-4/957be3073d49f64837c34a37214dbef1/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+73                android:value="androidx.startup" />
+73-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/HP/.gradle/caches/transforms-4/957be3073d49f64837c34a37214dbef1/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+74            <meta-data
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/HP/.gradle/caches/transforms-4/5cef0f185cf79aef1033a771068b129e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+75                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/HP/.gradle/caches/transforms-4/5cef0f185cf79aef1033a771068b129e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+76                android:value="androidx.startup" />
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/HP/.gradle/caches/transforms-4/5cef0f185cf79aef1033a771068b129e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+77        </provider>
+78
+79        <receiver
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/HP/.gradle/caches/transforms-4/5cef0f185cf79aef1033a771068b129e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+80            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/HP/.gradle/caches/transforms-4/5cef0f185cf79aef1033a771068b129e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+81            android:directBootAware="false"
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/HP/.gradle/caches/transforms-4/5cef0f185cf79aef1033a771068b129e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+82            android:enabled="true"
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/HP/.gradle/caches/transforms-4/5cef0f185cf79aef1033a771068b129e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+83            android:exported="true"
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/HP/.gradle/caches/transforms-4/5cef0f185cf79aef1033a771068b129e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+84            android:permission="android.permission.DUMP" >
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/HP/.gradle/caches/transforms-4/5cef0f185cf79aef1033a771068b129e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/HP/.gradle/caches/transforms-4/5cef0f185cf79aef1033a771068b129e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+86                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/HP/.gradle/caches/transforms-4/5cef0f185cf79aef1033a771068b129e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/HP/.gradle/caches/transforms-4/5cef0f185cf79aef1033a771068b129e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+87            </intent-filter>
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/HP/.gradle/caches/transforms-4/5cef0f185cf79aef1033a771068b129e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+89                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/HP/.gradle/caches/transforms-4/5cef0f185cf79aef1033a771068b129e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/HP/.gradle/caches/transforms-4/5cef0f185cf79aef1033a771068b129e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+90            </intent-filter>
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/HP/.gradle/caches/transforms-4/5cef0f185cf79aef1033a771068b129e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+92                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/HP/.gradle/caches/transforms-4/5cef0f185cf79aef1033a771068b129e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/HP/.gradle/caches/transforms-4/5cef0f185cf79aef1033a771068b129e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+93            </intent-filter>
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/HP/.gradle/caches/transforms-4/5cef0f185cf79aef1033a771068b129e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+95                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/HP/.gradle/caches/transforms-4/5cef0f185cf79aef1033a771068b129e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/HP/.gradle/caches/transforms-4/5cef0f185cf79aef1033a771068b129e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+96            </intent-filter>
+97        </receiver>
+98    </application>
+99
+100</manifest>
