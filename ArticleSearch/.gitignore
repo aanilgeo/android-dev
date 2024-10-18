@@ -21,7 +21,17 @@ local.properties
 
 # Ignore local properties and other environment-specific files
 local.properties
+apikey.properties
 
 # Ignore external Android NDK related build artifacts
 .externalNativeBuild/
 
+# Ignore additional project directories
+/BestSellersApp/
+/CodepathMail/
+/FlixsterPart1/
+/HelloWorld/
+/JokeFetchingApp/
+/TapCounterApp/
+/Wishlist/
+/Wordle/
