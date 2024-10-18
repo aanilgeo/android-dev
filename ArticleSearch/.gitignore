@@ -20,8 +20,8 @@ local.properties
 .cxx/
 
 # Ignore local properties and other environment-specific files
-local.properties
-apikey.properties
+/local.properties
+/apikey.properties
 
 # Ignore external Android NDK related build artifacts
 .externalNativeBuild/
