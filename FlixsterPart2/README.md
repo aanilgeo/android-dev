@@ -24,7 +24,7 @@ The following **optional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+<img src='https://github.com/user-attachments/assets/78bdb36e-20a4-4ea4-bdb5-43527e7f8b38' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Kap
