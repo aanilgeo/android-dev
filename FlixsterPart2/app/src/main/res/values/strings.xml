@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FlixsterPart2</string>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Custom text styles -->
+    <style name="MovieTitleText">
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MovieDescriptionText">
+        <item name="android:textColor">@color/backgroundColor</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>
