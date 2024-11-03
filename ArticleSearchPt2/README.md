@@ -18,26 +18,30 @@ The following **required** functionality is completed:
   - The app should cache the latest articles fetched from the NYT API in a local SQLite database using Room.
   - If the user has fetched data recently, those articles should be available offline.
   - Ensure old cached data is properly replaced with new data upon successful network fetches.
-  <!-- Replace this link with your actual image/GIF link -->
+<img src="https://github.com/user-attachments/assets/7d2c104d-39a1-4556-80ed-a99201d85890" width="300" height="640"/>
+
 
 - [X] (2 pts) **If user turns on airplane mode and closes and reopens app, old data from the database should be loaded**
-  <!-- Replace this link with your actual image/GIF link -->
+<img src="https://github.com/user-attachments/assets/7d2c104d-39a1-4556-80ed-a99201d85890" width="300" height="640"/>
 
 ### Stretch Features
 
 The following **stretch** functionality is implemented:
 
 - [X] (2 pts) **Add Swipe To Refresh to force a new network call to get new data**
-  <!-- Replace this link with your actual image/GIF link -->
+<img src="https://github.com/user-attachments/assets/bfecdb8a-730c-412d-82ef-ce0af575714f" width="300" height="640"/>
+
 
 - [X] (2 pts) **Add setting toggle for user to create preference for caching data or not (Using Shared Preferences)**
-  <!-- Replace this link with your actual image/GIF link -->
+<img src="https://github.com/user-attachments/assets/d06c1439-8265-4270-bf6e-1d1aa31d7a50" width="300" height="640"/>
+
 
 - [ ] (+3 pts) **Implement a Search UI to filter current RecyclerView entries or fetch data from the search API with query**
   <!-- Replace this link with your actual image/GIF link -->
 
 - [X] (2 pts) **Listen to network connectivity changes and create a UI to let people know they are offline and automatically reload new data if connectivity returns**
-  <!-- Replace this link with your actual image/GIF link -->
+<img src="https://github.com/user-attachments/assets/7f794b49-8130-4a1a-99fd-de81a6c7cc7b" width="300" height="640"/>
+
 
 ## Notes
 ### Challenges
