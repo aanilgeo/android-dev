@@ -51,23 +51,31 @@ android {
     }
 }
 
-dependencies {
+val room_version = "2.6.1"
+val kotlin_version = "1.8.10"
 
+
+dependencies {
+    // Room dependencies
+    implementation("androidx.room:room-runtime:$room_version")
+    kapt("androidx.room:room-compiler:$room_version")
+    annotationProcessor("androidx.room:room-compiler:$room_version")
+    implementation("androidx.room:room-ktx:$room_version")
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
+    implementation("androidx.preference:preference-ktx:1.2.0")
+
+    // Other dependencies
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
-
     implementation(libs.asynchttpclient)
     implementation(libs.glide)
     implementation(libs.gson)
-    annotationProcessor(libs.glide.compiler)
+    kapt(libs.glide.compiler)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 }
-
-
-

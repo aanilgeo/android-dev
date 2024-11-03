@@ -21,12 +21,15 @@ class ArticleDetailActivity : AppCompatActivity() {
 
         val article = intent.getSerializableExtra("article") as? Article
 
+        // Set title, author, and description
         binding.articleTitle.text = article?.headline?.main
         binding.articleAuthor.text = article?.byline?.original
-        binding.articleDescription.text = article?.abstract
+        binding.articleDescription.text = article?.abstractText
 
+        // Load the article image if available
+        val imageUrl = "https://www.nytimes.com/${article?.multimedia?.firstOrNull()?.url ?: ""}"
         Glide.with(this)
-            .load("https://www.nytimes.com/" + article?.multimedia?.get(0)?.url)
+            .load(imageUrl)
             .into(binding.articleImage)
     }
 

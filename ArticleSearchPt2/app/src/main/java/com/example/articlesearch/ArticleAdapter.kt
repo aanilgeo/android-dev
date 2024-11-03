@@ -27,16 +27,18 @@ class ArticleAdapter(private val articles: List<Article>) :
     override fun onBindViewHolder(holder: ArticleViewHolder, position: Int) {
         val article = articles[position]
         holder.title.text = article.headline.main
-        holder.description.text = article.abstract
+        holder.description.text = article.abstractText
 
+        // Load image using Glide with a fallback option if no URL is present
+        val imageUrl = "https://www.nytimes.com/${article.multimedia.firstOrNull()?.url ?: ""}"
         Glide.with(holder.itemView.context)
-            .load("https://www.nytimes.com/" + article.multimedia[0].url)
+            .load(imageUrl)
             .into(holder.imageView)
 
         holder.itemView.setOnClickListener {
-            val intent = Intent(it.context, ArticleDetailActivity::class.java)
+            val intent = Intent(holder.itemView.context, ArticleDetailActivity::class.java)
             intent.putExtra("article", article)
-            it.context.startActivity(intent)
+            holder.itemView.context.startActivity(intent)
         }
     }
 
