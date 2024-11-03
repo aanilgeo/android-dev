@@ -1,0 +1,37 @@
+# Ignore Android Studio specific files
+*.iml
+.gradle/
+local.properties
+/.idea/
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore build output directories
+/build/
+/captures
+/externalNativeBuild
+.cxx/
+
+# Ignore local properties and other environment-specific files
+/local.properties
+/apikey.properties
+
+# Ignore external Android NDK related build artifacts
+.externalNativeBuild/
+
+# Ignore additional project directories
+/BestSellersApp/
+/CodepathMail/
+/FlixsterPart1/
+/HelloWorld/
+/JokeFetchingApp/
+/TapCounterApp/
+/Wishlist/
+/Wordle/
