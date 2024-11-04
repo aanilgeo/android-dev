@@ -4,23 +4,23 @@ Submitted by: **Andrew Anil George**
 
 **BitFit** is a health metrics app that allows users to track a health aspect of their life and view and scroll through their past entries.
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **At least one health metric is tracked (based on user input)**
-    - Chosen metric(s): `[TODO: FILL ME IN TO GET CREDIT]`
-- [ ] **There is a "create entry" UI that prompts users to make their daily entry**
-- [ ] **New entries are saved in a database and then updated in the RecyclerView**
-- [ ] **On application restart, previously entered entries are preserved (i.e., are *persistent*)**
+- [X] **At least one health metric is tracked (based on user input)**
+    - Chosen metric(s): `Sleep`
+- [X] **There is a "create entry" UI that prompts users to make their daily entry**
+- [X] **New entries are saved in a database and then updated in the RecyclerView**
+- [X] **On application restart, previously entered entries are preserved (i.e., are *persistent*)**
 
 The following **optional** features are implemented:
 
-- [ ] **Create a UI for tracking averages and trends in metrics**
-- [ ] **Improve and customize the user interface through styling and coloring**
-- [ ] **Implement orientation responsivity**
+- [X] **Create a UI for tracking averages and trends in metrics**
+- [X] **Improve and customize the user interface through styling and coloring**
+- [X] **Implement orientation responsivity**
 - [ ] **Add a daily photo feature**
 
 The following **additional** features are implemented:
@@ -31,18 +31,19 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...
+GIF created with Kap
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
-
-Describe any challenges encountered while building the app.
+## Challenges
+- Configuring Room database and handling schema updates without data loss required careful version management.
+- Managing dynamic values and display for SeekBars required linking UI updates to user actions in real-time.
+- Ensuring data persistence across app restarts added complexity, especially when managing averages and historical entries.
+- Displaying previous entries in a scrollable, accessible view alongside the main input form required layout adjustments for visibility.
 
 ## License
 
