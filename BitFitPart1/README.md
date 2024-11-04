@@ -28,8 +28,7 @@ The following **additional** features are implemented:
 - [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
-
-Here's a walkthrough of implemented user stories:
+<img src="https://github.com/user-attachments/assets/c1ac523a-8121-49ca-9303-153bb7ecc7c0" width="500" height="640"/>
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Kap
