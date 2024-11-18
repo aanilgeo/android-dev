@@ -17,7 +17,6 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 - [X] **Add a more advanced UI (e.g: Graphing) for tracking trends in metrics**
-- [ ] **Implement daily notifications to prompt users to fill in their data**
 
 ## Video Walkthrough
 
