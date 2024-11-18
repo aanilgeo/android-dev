@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFF3E0">
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/dashboardTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dashboard"
+        android:textSize="24sp"
+        android:textColor="#FF5722"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Average Hours Slept -->
+    <TextView
+        android:id="@+id/averageHoursSlept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Average hours slept: 0"
+        android:textSize="18sp"
+        android:textColor="#212121"
+        app:layout_constraintTop_toBottomOf="@id/dashboardTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Average Feeling Score -->
+    <TextView
+        android:id="@+id/averageFeelingScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Average feeling score: 0"
+        android:textSize="18sp"
+        android:textColor="#212121"
+        app:layout_constraintTop_toBottomOf="@id/averageHoursSlept"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <!-- Placeholder for Graph or Visualization -->
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChart"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:background="#FFE0B2"
+        android:contentDescription="Bar chart displaying sleep and feeling trends"
+        app:layout_constraintTop_toBottomOf="@id/averageFeelingScore"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
