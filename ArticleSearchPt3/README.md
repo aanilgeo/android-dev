@@ -6,7 +6,7 @@ Submitted by: **Andrew Anil George**
 
 **NYT ArticleSearch Pt 3** is an app that combines the Best Setting Books app and the Article Search app, allowing users to navigate between books and articles seamlessly.
 
-Time spent: **4** hours spent in total <!-- Replace 'X' with the number of hours you spent on this project -->
+Time spent: **4** hours spent in total 
 
 ## Application Features
 
@@ -14,32 +14,31 @@ Time spent: **4** hours spent in total <!-- Replace 'X' with the number of hours
 
 The following **required** functionality is completed:
 
-- [ ] (3 pts) **Add and implement Bottom Navigation to your application**
+- [X] (3 pts) **Add and implement Bottom Navigation to your application**
     - Allows navigation between books and articles using Bottom Navigation.
-    - ![GIF showing Bottom Navigation functionality](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
 
-- [ ] (4 pts) **Dynamically use fragments within Activities**
+- [X] (4 pts) **Dynamically use fragments within Activities**
     - Displays books and articles in their respective fragments, dynamically managed within the main activity.
-    - ![GIF showing fragment management](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
 
-- [ ] (3 pts) **Customize the toolbar and icons**
+- [X] (3 pts) **Customize the toolbar and icons**
     - Provides a unique toolbar experience for each section with relevant icons.
-    - ![GIF showing toolbar customization](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
 
 ### Stretch Features
 
 The following **stretch** functionality is implemented:
 
-- [ ] (+2 pts) **Customize a Home screen using the [Most Popular NYTimes Articles API](https://developer.nytimes.com/docs/most-popular-product/1/overview)**
-    - Displays a list of popular articles on a custom home screen.
-    - ![GIF showing Home screen with popular articles](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
-
-- [ ] (2 pts) **Respond to device orientation changes without resetting the application**
+- [X] (2 pts) **Respond to device orientation changes without resetting the application**
     - Ensures app content maintains its state across orientation changes.
-    - ![GIF showing orientation change handling](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
+
 
 ## Notes
 ### Challenges
+- Parsing complex nested JSON objects (e.g., multimedia and headline data) required creating custom data classes and handling missing or null fields to avoid runtime errors. 
+- Dynamically managing fragments within the main activity involved handling fragment transactions seamlessly to ensure proper navigation and state retention. 
+- Implementing Room for offline data storage necessitated creating custom type converters to serialize nested JSON data and ensuring compatibility with the schema design. 
+- Displaying dynamic content in RecyclerView required handling empty states, managing placeholder images for articles with missing multimedia, and ensuring efficient adapter updates. 
+- Handling network failures gracefully required setting up robust error messages and retry mechanisms to provide a seamless experience for offline and online transitions.
+
 
 ## Resources
 
