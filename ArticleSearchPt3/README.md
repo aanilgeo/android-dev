@@ -23,12 +23,20 @@ The following **required** functionality is completed:
 - [X] (3 pts) **Customize the toolbar and icons**
     - Provides a unique toolbar experience for each section with relevant icons.
 
+<img src="https://github.com/user-attachments/assets/118b3adf-ebc4-4925-a457-0917c624d3ef" width="630" height="640"/>
+
+<img src="" width="300" height="640"/>
+
+<img src="" width="300" height="640"/>
+
 ### Stretch Features
 
 The following **stretch** functionality is implemented:
 
 - [X] (2 pts) **Respond to device orientation changes without resetting the application**
     - Ensures app content maintains its state across orientation changes.
+
+<img src="https://github.com/user-attachments/assets/43beaf5e-a557-4c12-b433-2961b71b471a" width="630" height="640"/>
 
 
 ## Notes
