@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_books"
+        android:title="@string/nav_books"
+        android:contentDescription="@string/nav_books_description"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_books" />
+    <item
+        android:id="@+id/nav_articles"
+        android:title="@string/nav_articles"
+        android:contentDescription="@string/nav_articles_description"
+        android:orderInCategory="2"
+        android:icon="@drawable/ic_article" />
+</menu>
+
