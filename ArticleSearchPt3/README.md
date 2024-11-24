@@ -16,18 +16,21 @@ The following **required** functionality is completed:
 
 - [X] (3 pts) **Add and implement Bottom Navigation to your application**
     - Allows navigation between books and articles using Bottom Navigation.
+<img src="https://github.com/user-attachments/assets/118b3adf-ebc4-4925-a457-0917c624d3ef" width="640" height="640"/> 
 
 - [X] (4 pts) **Dynamically use fragments within Activities**
     - Displays books and articles in their respective fragments, dynamically managed within the main activity.
+<div style="display: flex; justify-content: space-around;">
+  <img src="https://github.com/user-attachments/assets/0253cdee-4ef2-427a-968f-9df86856c567" width="300" height="640" />
+  <img src="https://github.com/user-attachments/assets/c5b6464a-d793-4ced-a515-720e8dd241a4" width="300" height="640" />
+</div>
 
 - [X] (3 pts) **Customize the toolbar and icons**
     - Provides a unique toolbar experience for each section with relevant icons.
-
-<img src="https://github.com/user-attachments/assets/118b3adf-ebc4-4925-a457-0917c624d3ef" width="630" height="640"/>
-
-<img src="" width="300" height="640"/>
-
-<img src="" width="300" height="640"/>
+<div style="display: flex; justify-content: space-around;">
+  <img src="https://github.com/user-attachments/assets/0253cdee-4ef2-427a-968f-9df86856c567" width="300" height="640" />
+  <img src="https://github.com/user-attachments/assets/c5b6464a-d793-4ced-a515-720e8dd241a4" width="300" height="640" />
+</div>
 
 ### Stretch Features
 
