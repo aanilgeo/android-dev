@@ -98,7 +98,6 @@
 
 ## Wireframes
 
-[Add picture of your hand-sketched wireframes in this section]  
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://github.com/user-attachments/assets/1342579b-84d1-4234-bd2f-ad6c4acef03d" width=600>
 
 ---
