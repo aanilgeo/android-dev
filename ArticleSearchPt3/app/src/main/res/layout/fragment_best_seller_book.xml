@@ -1,0 +1,83 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <!-- Book Ranking -->
+    <TextView
+        android:id="@+id/book_ranking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/book_ranking_default"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/book_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.267" />
+
+    <!-- Book Title -->
+    <TextView
+        android:id="@+id/book_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/book_title_default"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/book_image"
+        app:layout_constraintStart_toEndOf="@+id/book_ranking"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingStart="8dp" />
+
+    <!-- Book Author -->
+    <TextView
+        android:id="@+id/book_author"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/book_author_default"
+        app:layout_constraintTop_toBottomOf="@id/book_title"
+        app:layout_constraintStart_toEndOf="@id/book_ranking"
+        app:layout_constraintEnd_toEndOf="@id/book_image"
+        app:layout_constraintBottom_toTopOf="@id/book_image"
+        android:paddingBottom="8dp" />
+
+    <!-- Book Image -->
+    <ImageView
+        android:id="@+id/book_image"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/book_image_description"
+        app:layout_constraintStart_toEndOf="@id/book_ranking"
+        app:layout_constraintTop_toBottomOf="@id/book_author" />
+
+    <!-- Book Description -->
+    <TextView
+        android:id="@+id/book_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/book_description_default"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/book_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <!-- Buy Button -->
+    <Button
+        android:id="@+id/buy_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buy_button_text"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/black"
+        android:contentDescription="@string/buy_button_description"
+        app:layout_constraintTop_toBottomOf="@id/book_description"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
