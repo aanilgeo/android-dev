@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFF3E0">
+
+    <!-- Title or Header -->
+    <TextView
+        android:id="@+id/mainFragmentHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sleep Tracker"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#FF5722"
+        android:padding="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Hours Slept Label and SeekBar -->
+    <TextView
+        android:id="@+id/hoursSleptLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How many hours have you slept?"
+        android:textColor="#212121"
+        app:layout_constraintTop_toBottomOf="@id/mainFragmentHeader"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/hoursSleptValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6 hours"
+        android:textColor="#212121"
+        app:layout_constraintTop_toBottomOf="@id/hoursSleptLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="4dp" />
+
+    <SeekBar
+        android:id="@+id/hoursSleptSeekBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:max="12"
+        android:progress="6"
+        app:layout_constraintTop_toBottomOf="@id/hoursSleptValue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp" />
+
+    <!-- Feeling Score Label and SeekBar -->
+    <TextView
+        android:id="@+id/feelingLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How are you feeling today (1-10)?"
+        android:textColor="#212121"
+        app:layout_constraintTop_toBottomOf="@id/hoursSleptSeekBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/feelingValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feeling: 5"
+        android:textColor="#212121"
+        app:layout_constraintTop_toBottomOf="@id/feelingLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="4dp" />
+
+    <SeekBar
+        android:id="@+id/feelingSeekBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:max="10"
+        android:progress="5"
+        app:layout_constraintTop_toBottomOf="@id/feelingValue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp" />
+
+    <!-- Notes Field -->
+    <EditText
+        android:id="@+id/notesField"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Any other notes?"
+        app:layout_constraintTop_toBottomOf="@id/feelingSeekBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp" />
+
+    <!-- RecyclerView to display previous entries -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/notesField"
+        app:layout_constraintBottom_toTopOf="@id/addEntryButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Add Entry Button -->
+    <Button
+        android:id="@+id/addEntryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Entry"
+        android:backgroundTint="#FF5722"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

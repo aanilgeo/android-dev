@@ -1,0 +1,6 @@
+com.example.bitfitpart2.test.app-tracing-1.2.0-0 /Users/HP/.gradle/caches/transforms-4/51b801412df90390ea338fca9e952083/transformed/tracing-1.2.0/res
+com.example.bitfitpart2.test.app-core-1.6.1-1 /Users/HP/.gradle/caches/transforms-4/f1de0c4edc1152409866ec97a8de439c/transformed/core-1.6.1/res
+com.example.bitfitpart2.test.app-androidTest-2 /Users/HP/NJIT/CS-388/aa3348-CS388-001/BitFitPart2/app/build/generated/res/resValues/androidTest/debug
+com.example.bitfitpart2.test.app-mergeDebugAndroidTestResources-3 /Users/HP/NJIT/CS-388/aa3348-CS388-001/BitFitPart2/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.bitfitpart2.test.app-mergeDebugAndroidTestResources-4 /Users/HP/NJIT/CS-388/aa3348-CS388-001/BitFitPart2/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.bitfitpart2.test.app-debugAndroidTest-5 /Users/HP/NJIT/CS-388/aa3348-CS388-001/BitFitPart2/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
