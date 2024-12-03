@@ -1,0 +1,61 @@
+# Gradle files
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+
+# Build output
+/build/
+.cxx/
+.externalNativeBuild/
+
+# IntelliJ IDEA/Android Studio files
+*.iml
+.idea/
+
+# Local configuration file (SDK path, etc.)
+local.properties
+
+# Log files
+*.log
+
+# Android Studio captures
+/captures/
+
+# NDK
+/.externalNativeBuild/
+
+# Keystore files
+*.jks
+*.keystore
+
+# Firebase Crashlytics
+crashlytics.properties
+fabric.properties
+
+# Miscellaneous
+*.orig
+
+# JetBrains specific
+/.idea/misc.xml
+/.idea/inspectionProfiles
+
+# Temporary files
+*.tmp
+*.temp
+
+# Generated files
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.war
+*.ear
+*.json
+*.lock
