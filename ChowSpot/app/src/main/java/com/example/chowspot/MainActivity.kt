@@ -11,8 +11,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // Sample data for the RecyclerView
-        val foodTrucks = listOf("Truck A", "Truck B", "Truck C")
+        // Sample data for RecyclerView
+        val foodTrucks = listOf("Tasty Tacos", "Pizza Paradise", "Burger Haven")
 
         // Set up RecyclerView
         val recyclerView: RecyclerView = findViewById(R.id.recyclerView)
@@ -24,15 +24,15 @@ class MainActivity : AppCompatActivity() {
         bottomNavigationView.setOnItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.home -> {
-                    // Handle Home Tab click
+                    // Already showing the Home Screen
                     true
                 }
                 R.id.favorites -> {
-                    // Handle Favorites Tab click
+                    // TODO: Replace with Fragment for Favorites
                     true
                 }
                 R.id.profile -> {
-                    // Handle Profile Tab click
+                    // TODO: Replace with Fragment for Profile
                     true
                 }
                 else -> false
