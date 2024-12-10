@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="@color/backgroundColor">
 
     <!-- Name Field -->
     <EditText
@@ -11,7 +13,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Name"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:textColor="@color/textColorPrimary"
+        android:backgroundTint="@color/dividerColor" />
 
     <!-- Email Field -->
     <EditText
@@ -19,7 +23,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Email"
-        android:inputType="textEmailAddress" />
+        android:inputType="textEmailAddress"
+        android:textColor="@color/textColorPrimary"
+        android:backgroundTint="@color/dividerColor" />
 
     <!-- Password Field -->
     <EditText
@@ -27,7 +33,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:textColor="@color/textColorPrimary"
+        android:backgroundTint="@color/dividerColor" />
 
     <!-- Sign Up Button -->
     <Button
@@ -35,5 +43,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sign Up"
+        android:textColor="@color/buttonTextColor"
+        android:backgroundTint="@color/buttonColor"
         android:layout_marginTop="16dp" />
 </LinearLayout>

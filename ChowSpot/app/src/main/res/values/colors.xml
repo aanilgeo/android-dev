@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#FF6F00</color>
+    <color name="colorPrimaryVariant">#FFA040</color>
+    <color name="colorAccent">#FFCC80</color>
+
+    <!-- Background and Text -->
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+
+    <!-- Button Colors -->
+    <color name="buttonColor">#FF6F00</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+
+    <!-- Additional Colors -->
+    <color name="dividerColor">#BDBDBD</color>
+    <color name="placeholderColor">#E0E0E0</color>
 </resources>

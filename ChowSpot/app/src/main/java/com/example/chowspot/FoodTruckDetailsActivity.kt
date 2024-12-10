@@ -15,7 +15,6 @@ class FoodTruckDetailsActivity : AppCompatActivity() {
         // Retrieve data from Intent
         val truckName = intent.getStringExtra("TRUCK_NAME") ?: "Unknown Truck"
         val truckImage = intent.getStringExtra("TRUCK_IMAGE")
-        val truckMenu = intent.getStringExtra("TRUCK_MENU") ?: "No menu available"
         val truckAddress = intent.getStringExtra("TRUCK_ADDRESS") ?: "Address not available"
         val truckRating = intent.getStringExtra("TRUCK_RATING") ?: "N/A"
 

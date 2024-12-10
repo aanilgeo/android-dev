@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="8dp">
+    android:padding="8dp"
+    android:background="@color/backgroundColor">
 
     <TextView
         android:id="@+id/truckName"
@@ -12,12 +13,13 @@
         android:layout_height="wrap_content"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:textColor="@android:color/black" />
+        android:textColor="@color/textColorPrimary" />
 
     <TextView
         android:id="@+id/truckDetails"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="14sp"
-        android:textColor="@android:color/darker_gray" />
+        android:textColor="@color/textColorSecondary"
+        android:layout_marginTop="4dp" />
 </LinearLayout>
