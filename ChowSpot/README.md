@@ -131,6 +131,7 @@
 
 ## Completed user stories
 
+- Divided Login Page into two windows; Login and SignUp
 - Added search functionality to Home Screen
 - Fetched food truck data via API
 - Set up XML layouts for Profile Screen
@@ -148,6 +149,4 @@
     - Bookmarking functionality on the details screen.
     - Favorites screen.
 
-[Add video/gif of your current application that shows build progress]  
-<img src="YOUR_APP_PROGRESS_IMAGE_URL" width=600>
-
+<img src="https://github.com/user-attachments/assets/01026d9c-9a6e-4db7-93dd-892ad58daf99" width="300" height="640" />
