@@ -33,6 +33,7 @@ class FoodTruckAdapter(private val foodTruckList: List<FoodTruck>) :
                 putExtra("TRUCK_NAME", foodTruck.name)
                 putExtra("TRUCK_ADDRESS", foodTruck.address)
                 putExtra("TRUCK_RATING", foodTruck.rating?.toString() ?: "N/A")
+                putExtra("TRUCK_LOCATION", "${foodTruck.geometry.location.lat},${foodTruck.geometry.location.lng}") // Pass location
             }
             context.startActivity(intent)
         }

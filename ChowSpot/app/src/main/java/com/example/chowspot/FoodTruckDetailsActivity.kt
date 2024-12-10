@@ -1,5 +1,7 @@
 package com.example.chowspot
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.widget.Button
@@ -26,6 +28,7 @@ class FoodTruckDetailsActivity : AppCompatActivity() {
         val truckImage = intent.getStringExtra("TRUCK_IMAGE")
         val truckAddress = intent.getStringExtra("TRUCK_ADDRESS") ?: "Address not available"
         val truckRating = intent.getStringExtra("TRUCK_RATING") ?: "N/A"
+        val truckLocation = intent.getStringExtra("TRUCK_LOCATION") ?: "" // Add location if provided
 
         // Set up RecyclerView for reviews
         reviewsAdapter = ReviewAdapter(reviews)
@@ -42,10 +45,33 @@ class FoodTruckDetailsActivity : AppCompatActivity() {
             showAddReviewDialog()
         }
 
+        // Open in Maps button functionality
+        findViewById<Button>(R.id.openMapButton).setOnClickListener {
+            if (truckLocation.isNotEmpty()) {
+                openGoogleMaps(truckLocation)
+            } else {
+                showToast("Location not available for this truck.")
+            }
+        }
+
         // Populate UI
         findViewById<TextView>(R.id.truckName).text = truckName
         findViewById<TextView>(R.id.truckDetails).text = "Address: $truckAddress\nRating: $truckRating"
         Glide.with(this).load(truckImage).into(findViewById(R.id.truckImage))
+    }
+
+    private fun openGoogleMaps(location: String) {
+        // Build URI for Google Maps directions
+        val gmmIntentUri = Uri.parse("google.navigation:q=$location")
+        val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
+        mapIntent.setPackage("com.google.android.apps.maps")
+
+        // Check if the device can handle Google Maps Intent
+        if (mapIntent.resolveActivity(packageManager) != null) {
+            startActivity(mapIntent)
+        } else {
+            showToast("Google Maps is not installed.")
+        }
     }
 
     private fun showAddReviewDialog() {
