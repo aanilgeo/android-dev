@@ -121,4 +121,33 @@
 
 <img src="https://github.com/user-attachments/assets/a04ef3dd-5b0a-40eb-844e-696546751add" width="300" height="640" />
 
-<br>
+---
+
+# Milestone 3 - Build Sprint 2 (Unit 9)
+
+## GitHub Project board
+
+<img src="https://github.com/user-attachments/assets/288e18cc-6719-42c3-9d9e-eae5b80901b9" width="640" height="540">
+
+## Completed user stories
+
+- Added search functionality to Home Screen
+- Fetched food truck data via API
+- Set up XML layouts for Profile Screen
+
+### Pending / Cut User Stories:
+
+- **Set up XML layouts for Food Truck Details Screen**
+  - The following tasks were deferred or deprioritized for this sprint:
+    - Include a map for real-time location. *(Deferred for later due to scope constraints.)*
+    - Add buttons for bookmarking and leaving reviews. *(Bookmarking feature was removed.)*
+
+- **Implement Favorites feature to bookmark food trucks**
+  - This feature was removed from the app's scope for Milestone 3:
+    - Saving favorite food trucks in Room database.
+    - Bookmarking functionality on the details screen.
+    - Favorites screen.
+
+[Add video/gif of your current application that shows build progress]  
+<img src="YOUR_APP_PROGRESS_IMAGE_URL" width=600>
+
