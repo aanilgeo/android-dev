@@ -150,3 +150,24 @@
     - Favorites screen.
 
 <img src="https://github.com/user-attachments/assets/01026d9c-9a6e-4db7-93dd-892ad58daf99" width="300" height="640" />
+
+---
+
+# Milestone 4 - Build Sprint 3 (Unit 10)
+
+## GitHub Project board
+
+<img src="https://github.com/user-attachments/assets/26239a70-f59c-4f1d-921d-c20088aba8b8" width="600" height="760">
+
+## Completed user stories
+
+- [x] Enable navigation to food truck locations from the Details Screen
+- [x] Implement Reviews and Ratings Feature for Food Trucks
+- [x] Polish UI for all screens
+- [x] Implement push notifications for Fun Facts
+- [x] Add a splash screen with the app logo
+- [x] Prepare the app for final submission
+
+## App Demo Video
+
+- Embed the YouTube/Vimeo link of your Completed Demo Day prep video
