@@ -131,10 +131,10 @@
 
 ## Completed user stories
 
-- Divided Login Page into two windows; Login and SignUp
-- Added search functionality to Home Screen
-- Fetched food truck data via API
-- Set up XML layouts for Profile Screen
+- [x] Divided Login Page into two windows; Login and SignUp
+- [x] Added search functionality to Home Screen
+- [x] Fetched food truck data via API
+- [x] Set up XML layouts for Profile Screen
 
 ### Pending / Cut User Stories:
 
