@@ -14,16 +14,20 @@ class MainActivity : AppCompatActivity() {
         val bottomNavigationView: BottomNavigationView = findViewById(R.id.bottomNavigationView)
 
         // Set default fragment
-        replaceFragment(HomeFragment())
+        if (savedInstanceState == null) {
+            replaceFragment(HomeFragment())
+        }
 
         bottomNavigationView.setOnItemSelectedListener { item ->
-            when (item.itemId) {
-                R.id.home -> replaceFragment(HomeFragment())
-                R.id.favorites -> replaceFragment(FavoritesFragment())
-                R.id.profile -> replaceFragment(ProfileFragment())
-                else -> false
+            val selectedFragment = when (item.itemId) {
+                R.id.home -> HomeFragment()
+                R.id.profile -> ProfileFragment()
+                else -> null
             }
-            true
+            selectedFragment?.let {
+                replaceFragment(it)
+                true
+            } ?: false
         }
     }
 
