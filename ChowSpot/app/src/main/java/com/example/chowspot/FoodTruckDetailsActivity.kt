@@ -3,6 +3,7 @@ package com.example.chowspot
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.widget.Button
 import android.widget.RatingBar
@@ -13,39 +14,39 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.google.firebase.firestore.FieldValue
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.Query
 
 class FoodTruckDetailsActivity : AppCompatActivity() {
 
-    private val reviews = mutableListOf<Review>() // In-memory list for reviews
+    private val reviews = mutableListOf<ReviewEntity>()
     private lateinit var reviewsAdapter: ReviewAdapter
+    private lateinit var truckId: String
+    private val db = FirebaseFirestore.getInstance()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_food_truck_details)
 
-        // Retrieve data from Intent
+        truckId = intent.getStringExtra("PLACE_ID") ?: ""
         val truckName = intent.getStringExtra("TRUCK_NAME") ?: "Unknown Truck"
         val truckImage = intent.getStringExtra("TRUCK_IMAGE")
         val truckAddress = intent.getStringExtra("TRUCK_ADDRESS") ?: "Address not available"
         val truckRating = intent.getStringExtra("TRUCK_RATING") ?: "N/A"
-        val truckLocation = intent.getStringExtra("TRUCK_LOCATION") ?: "" // Add location if provided
+        val truckLocation = intent.getStringExtra("TRUCK_LOCATION") ?: ""
 
-        // Set up RecyclerView for reviews
         reviewsAdapter = ReviewAdapter(reviews)
         val reviewsRecyclerView = findViewById<RecyclerView>(R.id.reviewsRecyclerView)
         reviewsRecyclerView.layoutManager = LinearLayoutManager(this)
         reviewsRecyclerView.adapter = reviewsAdapter
 
-        // Add one pre-populated review
-        reviews.add(Review("Alice", 4.5f, "Great food!"))
-        reviewsAdapter.notifyDataSetChanged()
+        fetchReviewsFromFirestore()
 
-        // Add Review button functionality
         findViewById<Button>(R.id.addReviewButton).setOnClickListener {
             showAddReviewDialog()
         }
 
-        // Open in Maps button functionality
         findViewById<Button>(R.id.openMapButton).setOnClickListener {
             if (truckLocation.isNotEmpty()) {
                 openGoogleMaps(truckLocation)
@@ -54,58 +55,91 @@ class FoodTruckDetailsActivity : AppCompatActivity() {
             }
         }
 
-        // Populate UI
         findViewById<TextView>(R.id.truckName).text = truckName
         findViewById<TextView>(R.id.truckDetails).text = "Address: $truckAddress\nRating: $truckRating"
-        Glide.with(this).load(truckImage).into(findViewById(R.id.truckImage))
+
+        Glide.with(this)
+            .load(truckImage)
+            .placeholder(R.drawable.ic_placeholder_image)
+            .into(findViewById(R.id.truckImage))
     }
 
-    private fun openGoogleMaps(location: String) {
-        // Build URI for Google Maps directions
-        val gmmIntentUri = Uri.parse("google.navigation:q=$location")
-        val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
-        mapIntent.setPackage("com.google.android.apps.maps")
-
-        // Check if the device can handle Google Maps Intent
-        if (mapIntent.resolveActivity(packageManager) != null) {
-            startActivity(mapIntent)
-        } else {
-            showToast("Google Maps is not installed.")
-        }
+    private fun fetchReviewsFromFirestore() {
+        Log.d("FoodTruckDetails", "Fetching reviews for truckId: $truckId")
+        db.collection("reviews")
+            .whereEqualTo("truckId", truckId)
+            .orderBy("timestamp", Query.Direction.DESCENDING)
+            .get()
+            .addOnSuccessListener { snapshot ->
+                reviews.clear()
+                for (document in snapshot.documents) {
+                    val reviewEntity = document.toObject(ReviewEntity::class.java)
+                    reviewEntity?.let { reviews.add(it) }
+                }
+                reviewsAdapter.notifyDataSetChanged()
+            }
+            .addOnFailureListener { e ->
+                showToast("Failed to fetch reviews: ${e.message}")
+            }
     }
 
     private fun showAddReviewDialog() {
-        // Inflate custom dialog view
         val dialogView = LayoutInflater.from(this).inflate(R.layout.dialog_add_review, null)
         val dialog = AlertDialog.Builder(this)
             .setTitle("Add Review")
             .setView(dialogView)
             .create()
 
-        val userNameField = dialogView.findViewById<TextView>(R.id.userNameField)
+        val foodItemField = dialogView.findViewById<TextView>(R.id.foodItemField)
         val userRatingBar = dialogView.findViewById<RatingBar>(R.id.userRatingBar)
         val userCommentField = dialogView.findViewById<TextView>(R.id.userCommentField)
         val submitButton = dialogView.findViewById<Button>(R.id.addReviewButton)
 
         submitButton.setOnClickListener {
-            val userName = userNameField.text.toString()
+            val foodItem = foodItemField.text.toString()
             val userRating = userRatingBar.rating
             val userComment = userCommentField.text.toString()
 
-            if (userName.isEmpty() || userComment.isEmpty()) {
+            if (foodItem.isEmpty() || userComment.isEmpty()) {
                 showToast("All fields are required!")
                 return@setOnClickListener
             }
 
-            val newReview = Review(userName, userRating, userComment)
-            reviews.add(newReview) // Add review to the in-memory list
-            reviewsAdapter.notifyDataSetChanged() // Notify adapter about data changes
-            showToast("Review added successfully!")
+            val newReview = mapOf(
+                "truckId" to truckId,
+                "foodItem" to foodItem,
+                "rating" to userRating,
+                "comment" to userComment,
+                "timestamp" to FieldValue.serverTimestamp()
+            )
+
+            db.collection("reviews")
+                .add(newReview)
+                .addOnSuccessListener {
+                    Log.d("FoodTruckDetails", "Review added for truckId: $truckId")
+                    showToast("Review added successfully!")
+                    fetchReviewsFromFirestore()
+                }
+                .addOnFailureListener { e ->
+                    Log.e("FoodTruckDetails", "Error adding review: ${e.message}")
+                    showToast("Failed to add review.")
+                }
 
             dialog.dismiss()
         }
 
         dialog.show()
+    }
+
+    private fun openGoogleMaps(location: String) {
+        val gmmIntentUri = Uri.parse("google.navigation:q=$location")
+        val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
+        mapIntent.setPackage("com.google.android.apps.maps")
+        if (mapIntent.resolveActivity(packageManager) != null) {
+            startActivity(mapIntent)
+        } else {
+            showToast("Google Maps is not installed.")
+        }
     }
 
     private fun showToast(message: String) {

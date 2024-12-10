@@ -34,7 +34,7 @@ class HomeFragment : Fragment() {
         adapter = FoodTruckAdapter(filteredList)
         recyclerView.adapter = adapter
 
-        fetchFoodTruckData("food") // Initial fetch with default keyword "food"
+        fetchFoodTruckData("food")
         setupSearchFunctionality()
 
         return view

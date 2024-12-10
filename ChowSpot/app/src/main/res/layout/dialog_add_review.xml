@@ -7,10 +7,10 @@
     android:padding="16dp">
 
     <EditText
-        android:id="@+id/userNameField"
+        android:id="@+id/foodItemField"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Your Name" />
+        android:hint="Food Item Name" />
 
     <RatingBar
         android:id="@+id/userRatingBar"

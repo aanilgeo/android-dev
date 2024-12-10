@@ -30,10 +30,12 @@ class FoodTruckAdapter(private val foodTruckList: List<FoodTruck>) :
         holder.itemView.setOnClickListener {
             val context = it.context
             val intent = Intent(context, FoodTruckDetailsActivity::class.java).apply {
+                putExtra("PLACE_ID", foodTruck.geometry.location.lat.toString() + "," + foodTruck.geometry.location.lng.toString())
                 putExtra("TRUCK_NAME", foodTruck.name)
                 putExtra("TRUCK_ADDRESS", foodTruck.address)
                 putExtra("TRUCK_RATING", foodTruck.rating?.toString() ?: "N/A")
-                putExtra("TRUCK_LOCATION", "${foodTruck.geometry.location.lat},${foodTruck.geometry.location.lng}") // Pass location
+                putExtra("TRUCK_LOCATION", "${foodTruck.geometry.location.lat},${foodTruck.geometry.location.lng}")
+                putExtra("TRUCK_IMAGE", foodTruck.photoReference?.firstOrNull()?.photoReference)
             }
             context.startActivity(intent)
         }

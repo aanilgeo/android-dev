@@ -7,13 +7,13 @@ import android.widget.RatingBar
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class ReviewAdapter(private val reviews: List<Review>) :
+class ReviewAdapter(private val reviews: List<ReviewEntity>) :
     RecyclerView.Adapter<ReviewAdapter.ViewHolder>() {
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-        val userName: TextView = view.findViewById(R.id.userName)
-        val userRating: RatingBar = view.findViewById(R.id.userRating)
-        val userComment: TextView = view.findViewById(R.id.userComment)
+        val foodItem: TextView = view.findViewById(R.id.foodItemField)
+        val ratingBar: RatingBar = view.findViewById(R.id.ratingBar)
+        val comment: TextView = view.findViewById(R.id.comment)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -24,10 +24,12 @@ class ReviewAdapter(private val reviews: List<Review>) :
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val review = reviews[position]
-        holder.userName.text = review.userName
-        holder.userRating.rating = review.rating
-        holder.userComment.text = review.comment
+        holder.foodItem.text = review.foodItem
+        holder.ratingBar.rating = review.rating
+        holder.comment.text = review.comment
     }
 
-    override fun getItemCount(): Int = reviews.size
+    override fun getItemCount(): Int {
+        return reviews.size
+    }
 }

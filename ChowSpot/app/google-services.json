@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "602568777776",
+    "project_id": "chowspot-f513c",
+    "storage_bucket": "chowspot-f513c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602568777776:android:6eecab66f544cef5e14df5",
+        "android_client_info": {
+          "package_name": "com.example.chowspot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT2YXooIuuJaWWCddnWuhYV4G9xnXEtTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
