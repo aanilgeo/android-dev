@@ -174,3 +174,5 @@ https://youtu.be/YoKKYfUSgKg
 ## Final Demo Video
 https://youtu.be/e1q5ufFy8qI
 
+## Link to Professor's Project Requirements
+https://github.com/MattToegel/CS388/blob/Unit7/Unit7/project-requirements.md
