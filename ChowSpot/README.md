@@ -168,6 +168,9 @@
 - [x] Add a splash screen with the app logo
 - [x] Prepare the app for final submission
 
-## App Demo Video
+## Practice Demo Video
 https://youtu.be/YoKKYfUSgKg
+
+## Final Demo Video
+https://youtu.be/e1q5ufFy8qI
 
