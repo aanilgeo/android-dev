@@ -169,5 +169,5 @@
 - [x] Prepare the app for final submission
 
 ## App Demo Video
+https://youtu.be/YoKKYfUSgKg
 
-- Embed the YouTube/Vimeo link of your Completed Demo Day prep video
